@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">YouTube 飞书沉淀 Skill 介绍图</title>
+  <desc id="desc">展示从 YouTube 视频到 Supadata 字幕、中文深度资料、质量检查和飞书云文档的工作流。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7F3EA"/>
+      <stop offset="0.52" stop-color="#EAF4F1"/>
+      <stop offset="1" stop-color="#F3ECF8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#1E293B" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="88" y="76" width="1424" height="748" rx="28" fill="#FFFFFF" opacity="0.88" filter="url(#shadow)"/>
+  <text x="132" y="158" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">YouTube 飞书沉淀 Skill</text>
+  <text x="136" y="212" fill="#4B5563" font-family="Inter, Arial, sans-serif" font-size="25">把视频链接转成可复习、可检索、可复用的中文知识文档</text>
+
+  <g transform="translate(130 292)">
+    <rect x="0" y="0" width="250" height="132" rx="18" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>
+    <text x="32" y="54" fill="#991B1B" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="750">1. 视频链接</text>
+    <text x="32" y="94" fill="#7F1D1D" font-family="Inter, Arial, sans-serif" font-size="20">标题 / 频道 / 时长</text>
+  </g>
+
+  <g transform="translate(426 292)">
+    <rect x="0" y="0" width="250" height="132" rx="18" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+    <text x="32" y="54" fill="#1E3A8A" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="750">2. Supadata</text>
+    <text x="32" y="94" fill="#1E40AF" font-family="Inter, Arial, sans-serif" font-size="20">时间戳字幕抓取</text>
+  </g>
+
+  <g transform="translate(722 292)">
+    <rect x="0" y="0" width="250" height="132" rx="18" fill="#DCFCE7" stroke="#22C55E" stroke-width="2"/>
+    <text x="32" y="54" fill="#14532D" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="750">3. 切段整理</text>
+    <text x="32" y="94" fill="#166534" font-family="Inter, Arial, sans-serif" font-size="20">3-8 分钟覆盖全片</text>
+  </g>
+
+  <g transform="translate(1018 292)">
+    <rect x="0" y="0" width="250" height="132" rx="18" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+    <text x="32" y="54" fill="#78350F" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="750">4. 中文资料</text>
+    <text x="32" y="94" fill="#92400E" font-family="Inter, Arial, sans-serif" font-size="20">步骤 / Prompt / 索引</text>
+  </g>
+
+  <g transform="translate(1314 292)">
+    <rect x="0" y="0" width="130" height="132" rx="18" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="2"/>
+    <text x="29" y="54" fill="#4C1D95" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="750">飞书</text>
+    <text x="28" y="94" fill="#5B21B6" font-family="Inter, Arial, sans-serif" font-size="20">云文档</text>
+  </g>
+
+  <g fill="none" stroke="#64748B" stroke-width="5" stroke-linecap="round">
+    <path d="M392 358 H414"/>
+    <path d="M688 358 H710"/>
+    <path d="M984 358 H1006"/>
+    <path d="M1280 358 H1302"/>
+  </g>
+  <g fill="#64748B">
+    <path d="M414 358 l-14 -9 v18z"/>
+    <path d="M710 358 l-14 -9 v18z"/>
+    <path d="M1006 358 l-14 -9 v18z"/>
+    <path d="M1302 358 l-14 -9 v18z"/>
+  </g>
+
+  <g transform="translate(138 510)">
+    <text x="0" y="0" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">内置保障</text>
+    <rect x="0" y="36" width="360" height="72" rx="14" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="24" y="82" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="23">自动取原视频标题并翻译命名</text>
+    <rect x="400" y="36" width="300" height="72" rx="14" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="424" y="82" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="23">发布前质量检查</text>
+    <rect x="740" y="36" width="300" height="72" rx="14" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="764" y="82" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="23">重复视频发布保护</text>
+    <rect x="1080" y="36" width="300" height="72" rx="14" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="1104" y="82" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="23">长视频分段处理</text>
+  </g>
+
+  <g transform="translate(138 680)">
+    <text x="0" y="0" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">输出标准</text>
+    <text x="0" y="52" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="24">时间戳递进 · 操作步骤还原 · 工具/API 索引 · Prompt 代码块 · 可复用工作流</text>
+    <text x="0" y="96" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="21">保留底层数据，但不逐字复刻完整版权字幕。</text>
+  </g>
+</svg>
