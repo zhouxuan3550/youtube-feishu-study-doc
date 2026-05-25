@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
-  <title id="title">YouTube 飞书沉淀 Skill 介绍图</title>
+  <title id="title">YouTube 视频转飞书笔记 Skill 介绍图</title>
   <desc id="desc">展示从 YouTube 视频到 Supadata 字幕、中文深度资料、质量检查和飞书云文档的工作流。</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -13,8 +13,8 @@
   </defs>
   <rect width="1600" height="900" fill="url(#bg)"/>
   <rect x="88" y="76" width="1424" height="748" rx="28" fill="#FFFFFF" opacity="0.88" filter="url(#shadow)"/>
-  <text x="132" y="158" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">YouTube 飞书沉淀 Skill</text>
-  <text x="136" y="212" fill="#4B5563" font-family="Inter, Arial, sans-serif" font-size="25">把视频链接转成可复习、可检索、可复用的中文知识文档</text>
+  <text x="132" y="158" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">YouTube 视频转飞书笔记 Skill</text>
+  <text x="136" y="212" fill="#4B5563" font-family="Inter, Arial, sans-serif" font-size="25">把视频链接转成可复习、可检索、可复用的中文飞书笔记</text>
 
   <g transform="translate(130 292)">
     <rect x="0" y="0" width="250" height="132" rx="18" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>

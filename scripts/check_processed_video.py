@@ -32,7 +32,9 @@ def load_json(path):
 
 def registry_paths(workspace):
     return [
+        Path(workspace) / ".youtube-to-feishu-note" / "processed_videos.json",
         Path(workspace) / ".youtube-feishu-study-doc" / "processed_videos.json",
+        Path.home() / ".codex" / "skills" / "youtube-to-feishu-note" / "data" / "processed_videos.json",
         Path.home() / ".codex" / "skills" / "youtube-feishu-study-doc" / "data" / "processed_videos.json",
     ]
 

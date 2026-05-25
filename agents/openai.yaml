@@ -1,4 +1,4 @@
 interface:
-  display_name: "YouTube 飞书沉淀"
-  short_description: "把 YouTube 视频处理成详尽中文资料，并保存到飞书。"
+  display_name: "YouTube 视频转飞书笔记"
+  short_description: "把 YouTube 视频处理成详尽中文笔记，并保存到飞书。"
   default_prompt: "请用这个 skill 处理这个 YouTube 视频，并保存到我的飞书云文档："

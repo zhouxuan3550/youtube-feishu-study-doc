@@ -24,8 +24,8 @@ def load_json(path):
 
 def update_registry(workspace, record):
     paths = [
-        Path(workspace) / ".youtube-feishu-study-doc" / "processed_videos.json",
-        Path.home() / ".codex" / "skills" / "youtube-feishu-study-doc" / "data" / "processed_videos.json",
+        Path(workspace) / ".youtube-to-feishu-note" / "processed_videos.json",
+        Path.home() / ".codex" / "skills" / "youtube-to-feishu-note" / "data" / "processed_videos.json",
     ]
     for registry_path in paths:
         registry_path.parent.mkdir(parents=True, exist_ok=True)

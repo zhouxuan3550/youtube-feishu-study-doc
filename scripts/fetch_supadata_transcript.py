@@ -30,7 +30,7 @@ def main() -> int:
         f"https://api.supadata.ai/v1/transcript?{query}",
         headers={
             "x-api-key": api_key,
-            "user-agent": "Mozilla/5.0 youtube-feishu-study-doc/1.0",
+            "user-agent": "Mozilla/5.0 youtube-to-feishu-note/1.0",
             "accept": "application/json",
         },
     )

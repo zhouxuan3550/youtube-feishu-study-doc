@@ -1,8 +1,8 @@
-# YouTube 飞书沉淀 Skill
+# YouTube 视频转飞书笔记 Skill
 
-![YouTube 飞书沉淀 Skill](assets/skill-intro.png)
+<img src="https://raw.githubusercontent.com/zhouxuan3550/youtube-to-feishu-note/main/assets/skill-intro.png" alt="YouTube 视频转飞书笔记 Skill" width="100%">
 
-把 YouTube 视频处理成详尽中文资料，并保存到飞书云文档。这个 skill 适合把长视频、教程、产品演示、访谈、工作流讲解沉淀成可复习、可检索、可复用的个人知识文档。
+把 YouTube 视频处理成详尽中文笔记，并保存到飞书云文档。这个 skill 适合把长视频、教程、产品演示、访谈、工作流讲解沉淀成可复习、可检索、可复用的个人知识文档。
 
 ## 能做什么
 
@@ -31,7 +31,7 @@ YouTube 链接
 在 Codex 中直接引用这个 skill，并提供 YouTube 链接：
 
 ```text
-[$youtube-feishu-study-doc] 请处理这个视频，并保存到我的飞书云文档：
+[$youtube-to-feishu-note] 请处理这个视频，并保存到我的飞书云文档：
 https://www.youtube.com/watch?v=VIDEO_ID
 ```
 
@@ -101,4 +101,3 @@ python3 scripts/publish_feishu_doc.py \
 ## 输出原则
 
 这个 skill 的目标是“保留底层数据”，但不会逐字复刻完整版权字幕。它会用中文结构化还原视频内容，保留时间戳、操作步骤、演示例子、Prompt、配置方法和工作流逻辑。
-

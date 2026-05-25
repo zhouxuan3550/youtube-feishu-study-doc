@@ -1,9 +1,9 @@
 ---
-name: youtube-feishu-study-doc
-description: Create high-fidelity Chinese study documents from YouTube videos and save them to Feishu/Lark cloud docs. Use when the user asks to process, extract, transcribe, summarize, study, archive, or save a YouTube video to Feishu/Lark, especially with requirements like "拒绝高度概括", "保留底层数据", "按时间戳", "完整字幕/关键原文内容", "配置与工作流代码块", or "保存到飞书云文档".
+name: youtube-to-feishu-note
+description: Turn YouTube videos into high-fidelity Chinese Feishu/Lark notes. Use when the user asks to process, extract, transcribe, summarize, study, archive, or save a YouTube video to Feishu/Lark, especially with requirements like "拒绝高度概括", "保留底层数据", "按时间戳", "完整字幕/关键原文内容", "配置与工作流代码块", or "保存到飞书云文档".
 ---
 
-# YouTube Feishu Study Doc
+# YouTube 视频转飞书笔记
 
 ## Overview
 
@@ -62,19 +62,19 @@ Important boundary: do not publish a full verbatim transcript of copyrighted vid
 Fetch transcript:
 
 ```bash
-python3 /Users/oliverchow/.codex/skills/youtube-feishu-study-doc/scripts/get_youtube_metadata.py \
+python3 /Users/macstudio/.codex/skills/youtube-to-feishu-note/scripts/get_youtube_metadata.py \
   "https://www.youtube.com/watch?v=VIDEO_ID" \
   --out metadata.json
 
-python3 /Users/oliverchow/.codex/skills/youtube-feishu-study-doc/scripts/check_processed_video.py \
+python3 /Users/macstudio/.codex/skills/youtube-to-feishu-note/scripts/check_processed_video.py \
   "https://www.youtube.com/watch?v=VIDEO_ID" \
   --metadata metadata.json
 
-python3 /Users/oliverchow/.codex/skills/youtube-feishu-study-doc/scripts/fetch_supadata_transcript.py \
+python3 /Users/macstudio/.codex/skills/youtube-to-feishu-note/scripts/fetch_supadata_transcript.py \
   "https://www.youtube.com/watch?v=VIDEO_ID" \
   --out transcript.json
 
-python3 /Users/oliverchow/.codex/skills/youtube-feishu-study-doc/scripts/prepare_transcript_chunks.py \
+python3 /Users/macstudio/.codex/skills/youtube-to-feishu-note/scripts/prepare_transcript_chunks.py \
   transcript.json \
   --metadata metadata.json \
   --format markdown \
@@ -84,12 +84,12 @@ python3 /Users/oliverchow/.codex/skills/youtube-feishu-study-doc/scripts/prepare
 Publish Markdown to Feishu:
 
 ```bash
-python3 /Users/oliverchow/.codex/skills/youtube-feishu-study-doc/scripts/validate_study_doc.py \
+python3 /Users/macstudio/.codex/skills/youtube-to-feishu-note/scripts/validate_study_doc.py \
   "./video-study.md" \
   --source-url "https://www.youtube.com/watch?v=VIDEO_ID" \
   --metadata metadata.json
 
-python3 /Users/oliverchow/.codex/skills/youtube-feishu-study-doc/scripts/publish_feishu_doc.py \
+python3 /Users/macstudio/.codex/skills/youtube-to-feishu-note/scripts/publish_feishu_doc.py \
   "./video-study.md" \
   --title "中文视频标题" \
   --source-url "https://www.youtube.com/watch?v=VIDEO_ID" \
